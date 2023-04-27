@@ -1,0 +1,24 @@
+{
+  "drinks": [
+    {
+      "drinkName": "Vodka Martini",
+      "drinkIngredients": "Vodka, Dry Vermouth, Green olive"
+    },
+    {
+      "drinkName": "Piña Colada",
+      "drinkIngredients": "Light rum, Coco López Cream of Coconut, Pineapplejuice"
+    },
+    {
+      "drinkName": "Cubra Libre",
+      "drinkIngredients": "Light rum, Limcejuice, Coca-Cola"
+    },
+    {
+      "drinkName": "Old Fashioned",
+      "drinkIngredients": "Whiskey, Syrup, Angostura Bitters"
+    },
+    {
+      "drinkName": "Strawberry Daquiri",
+      "drinkIngredients": "Light rum, Limejuice, Syrup, Strawberry"
+    }
+  ]
+  }

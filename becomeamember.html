@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Become a Member</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section class="grid-container">
+        <header><img src="img/icons8-glass-of-whiskey-50.png" alt="whiskey-icon" class="img_header">The Friday Drink<img
+                src="img/icons8-cocktail-48.png" alt="cocktail-icon" class="img_header"></header>
+
+        <nav class="nav_list">
+            <a href="index.html">Home</a>
+            <a href="#">Categories</a>
+            <a href="toptenlist.html">Top 10 List</a>
+            <a href="becomeamember.html">Become a Member</a>
+            <a href="isitfriday.html">Is it Friday?</a>
+        </nav>
+
+        <main class="drink-1">
+            <article>
+                <h1>Become a Member of The Friday Drink!</h1>
+
+                <p>Do you want to add your own drinks to our website? Become a member and mix your own drink!</p>
+
+                <form id="signup" action="">
+                    <h2>Your information:</h2>
+                    <p><label>Name: <input type="text" id="name" size="30" maxlength="100"></label></p>
+                    <p><label>Email: <input type="email" id="email" size="30" maxlength="100"></label></p>
+                    <p>
+                        <label for="agecheck">Have you turned 18 years old?</label> <br>
+                        <select id="agecheck">
+                            <option value="yes">Yes, I have turned 18 years old.</option>
+                            <option value="no">No, im younger than 18 years old. </option>
+                        </select>
+                    </p>
+                    <p><label for="favouritedrink">Your favourite drink:</label></p>
+                    <p><textarea rows="1" cols="40" id="favouritedrink"></textarea></p>
+
+                    <p><label><input type="checkbox" id="subscribe" checked="checked"> Subscribe to Drink of the
+                            Week</label></p>
+                    <p><input type="submit" value="Become a member"></p>
+                </form>
+
+                <p id="output"></p>
+                <script src="js/becomeamember.js"></script>
+            </article>
+        </main>
+
+        <footer>
+            <article>
+                <h3>Contact</h3>
+                <p>ola.amberntsson@gmail.com</p>
+            </article>
+            <article>
+                <h3>About me</h3>
+                <p>Junior Java- and ServiceNow Developer</p>
+            </article>
+            <article>
+                <h3>Linkedin</h3>
+                <a href="https://www.linkedin.com/in/ola-amberntsson-019a35207/">Ola Amberntsson</a>
+            </article>
+        </footer>
+    </section>
+</body>
+
+</html>
